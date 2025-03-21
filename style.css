@@ -1,0 +1,187 @@
+:root {
+    --bg-color: #F0EDCC;
+    --text-color: #3d3d3d;
+}
+
+body {
+	font-family: 'Spoqa Han Sans Neo', 'Helvetica Neue', sans-serif;
+	background-color: var(--bg-color);
+    color: var(--text-color);
+}
+/* 신기능 */
+.container{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggle {
+    display: none;
+  }
+
+#toggle:checked ~ .container{
+    --bg-color: #1e1e1e;
+    --text-color: white;
+}
+
+#tan {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    padding: 10px 20px;
+    font-size: larger;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* 신기능 */
+
+h1, h2, h3, h4 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.container > div {
+	margin: 20px auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: #001f3f 5px solid;
+}
+
+#prof:hover {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-heading {
+    text-align: center; 
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.projects-grid h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.project-image {
+    justify-self: center;
+    padding: 4%;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 0px;
+}
+
+
+.links-and-contact {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.links {
+    justify-self: center;
+}
+
+.links-list {
+    list-style: none;
+    font-size: large;
+    padding: 0;
+}
+
+.links-list li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.links-list img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+form input[type="submit"] {
+    color: black;
+    background-color: lightskyblue;
+    border: 0;
+}
+
+
+form input[type="email"] {
+    margin-top: 5px;
+    padding-left: 2px;
+    border: 0;
+}
+
+form textarea{
+    margin-top: 5px;
+    border: 0;
+}
+
+.submit-button-wrapper {
+	margin: 20px 0;
+    background-color: aqua;
+    color: black;
+}
+
+.map{
+    text-align: center;
+}
+
+.map iframe{
+    border: #001f3f 3px solid;
+    border-radius: 10px;
+}
+
+
+.final {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.final div{
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to my website!</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+	<input type="checkbox" id="toggle" />
+	<label id="tan" for="toggle">🌑</label>
+	<div class="container">
+		<div class="intro">
+			<!-- you can replace with your own profile picture -->
+			<!-- or use random portrait image here: https://source.unsplash.com/100x100/?portrait -->
+			<img src="images/me.png" id="prof"/>
+			<h1 style="margin-top: 7px;">Choi Ji Hun</h1>
+			<h3>learning AI development at Sejong University.</h3>
+			<p>{{ If the code runs, just ship it. 🚀😆 }}</p>
+		</div>
+
+		<div class="about-grid">
+			<div class="i-am">
+				<h3>I am</h3>
+				<ul class="about-list">
+					<li>An AI developer</li>
+					<li>A Researcher</li>
+					<li>Someone who does weird things</li>
+				</ul>
+			</div>
+			<div class="i-like">
+				<h3>I like to</h3>
+				<ul class="about-list">
+					<li>Exercising</li>
+					<li>Reading</li>
+					<li>Exploring new technologies</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="projects-heading">
+			<h3>My Projects</h3>
+			<div class="projects-grid">
+				<!-- you can replace with your own projects images -->
+				<!-- or use random image here: https://source.unsplash.com/random/300x300/?img=1 -->
+				<div>
+					<img class="project-image" src="images/pro1.png"/>
+					<h3>Simulation</h3>
+				</div>
+				<div>
+					<img class="project-image" src="images/pro2.png"/>
+					<h3>Reinforcement Learning</h3>
+				</div>
+				<div>
+					<img class="project-image" src="images/pro3.png"/>
+					<h3>Filter Development</h3>
+				</div>
+				<div>
+					<img class="project-image" src="images/pro4.png"/>
+					<h3>Autonomous Driving</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="links-and-contact">
+			<div class="links">
+				<h3>Links</h3>
+				<ul class="links-list">
+					<li>
+						<img src="images/github.png"/>
+						<a href="https://github.com/choimagon">Github</a>
+					</li>
+					<li>
+						<img src="images/x.png" alt="">
+						<a href="https://x.com/choi_CV">X(Formerly Twitter)</a>
+					</li>
+					<li>
+						<img src="images/linkedin.png" alt="">
+						<a href="https://www.linkedin.com/in/%EC%A7%80%ED%9B%88-%EC%B5%9C-33573a356/">Linkedin</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<form action="#">
+					<label for="email">
+						Email: <input type="email" id="email" placeholder="Enter your email" /> 
+					</label>
+					<label for="message">
+						Message: <textarea id="message">Your Message</textarea>
+					</label>
+					<input type="submit" class="submit-button-wrapper " valid="Send Message" />
+				</form>
+			</div>
+		</div>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25291.976353095382!2d127.06296505831965!3d37.5904595100392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cba5362658bd3%3A0x689fe60d8790dec1!2z7IOB67SJ7Jet!5e0!3m2!1sko!2skr!4v1742518453368!5m2!1sko!2skr" width="700" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+		<div class="final">
+			<div>
+				<h5>Only HTML, CSS</h5>
+			</div>
+			<div>
+				<h5>Made by Choi.</h5>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
